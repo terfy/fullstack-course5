@@ -11,7 +11,7 @@
     $scope.check = function() {
       var cnt = 0;
       $scope.dishList.split(",").forEach(function(elem) {
-        if (elem.trim() !== "") {
+        if (elem !== "") {
           cnt = cnt + 1;
         }
       });
